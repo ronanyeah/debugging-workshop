@@ -1,0 +1,25 @@
+{
+  "name": "debugging-workshop",
+  "version": "1.0.0",
+  "description": "FAC Debugging Workshop 21/04/2016",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --debug index.js",
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronanyeah/debugging-workshop.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ronanyeah/debugging-workshop/issues"
+  },
+  "homepage": "https://github.com/ronanyeah/debugging-workshop#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "nodemon": "^1.9.1"
+  }
+}
