@@ -1,17 +1,18 @@
 # debugging-workshop
-FAC Debugging Workshop 21/04/2016
+FAC Debugging Workshop
 
-debugger
-terminator/iterm
-.bash_aliases
-scope
-watch
-breakpoint list
-node --debug-brk vs --debug
-postman
-heisenberg video
-+ debugging without node inspector using the repl
-'--debug' for node-inspector 'debug' if you want to do it on cli
-git-cola
-gitk
-/sourcetree
+# Dev Tools
+- breakpoints
+- `debugger;`
+- watch
+- scope
+
+# Node Inspector
+- `node-inspector --no-preload` (add to .bash_aliases)
+- `$ node --debug app.js` or `$ node --debug-brk app.js`?
+- [Postman](https://www.getpostman.com/)
+
+## Resources:
+- [Debugging JavaScript - 0 to Heisenberg](https://www.youtube.com/watch?v=-q1z8BPFItw)
+- [Dev tools docs](https://developer.chrome.com/devtools)
+- [Node Inspector](https://www.npmjs.com/package/node-inspector)
