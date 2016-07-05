@@ -1,13 +1,12 @@
-# debugging-workshop
-FAC Debugging Workshop
+# FAC Debugging Workshop
 
-# Dev Tools
+## Dev Tools
 - breakpoints
 - `debugger;`
 - watch
 - scope
 
-# Node Inspector
+## Node Inspector
 - `node-inspector --no-preload` (add to .bash_aliases)
 - `$ node --debug app.js` or `$ node --debug-brk app.js`?
 - [Postman](https://www.getpostman.com/)
